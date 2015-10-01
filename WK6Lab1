@@ -1,6 +1,6 @@
 public class WK6Lab1 {
   
-  
+  import java.util.Scanner
   public static void main(String[] args) { 
     int userNum;
     int computerNum;
