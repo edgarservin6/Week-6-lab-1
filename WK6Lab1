@@ -1,0 +1,24 @@
+public class WK6Lab1 {
+  
+  
+  public static void main(String[] args) { 
+    int userNum;
+    int computerNum;
+    
+    Scanner input = new Scanner(System.in);
+    System.out.print("Guess a number between 1 and 10 ");
+   
+    computerNum = 0 + (int) ( Math.random() * 10 );
+    userNum = input.nextInt();
+    
+    if (userNum == computerNum )
+      System.out.printf( " You got it correct " ); 
+      
+    if ( userNum > computerNum )
+      System.out.printf ( "Sorry number is too big " );
+    
+    if (userNum < computerNum ) 
+      System.out.printf ( "Sorry number is too small ") ;
+  }
+  
+}
